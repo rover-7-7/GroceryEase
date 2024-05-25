@@ -1,0 +1,34 @@
+.footerfirst {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  padding: 20px 0px;
+  background-color: rgb(240, 240, 240);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.footerfirst .left {
+  width: 45%;
+}
+.footerfirst .left img {
+  width: 100%;
+}
+
+.footerfirst .right {
+  width: 45%;
+}
+.footerfirst .right h1 {
+  width: 80%;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.footerfirst .right p {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
